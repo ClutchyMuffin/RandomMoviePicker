@@ -1,0 +1,55 @@
+/* App-Level and Component-Specific Styles */
+* {
+  font-family: Roboto, sans-serif;
+}
+
+.top {
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 150px;
+  height: 70px;
+}
+
+#title {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  position: relative;
+}
+
+#button {
+  border-radius: 20px;
+  border-style: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(51, 51, 153);
+}
+
+.movieDetails {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(33, 31, 38);
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+#movieImg {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: -70px;
+  height: 350px;
+}
+
+#movieInfo {
+  color: white;
+  font-weight: 400;
+  margin-right: 100px;
+  margin-top: 200px;
+}
