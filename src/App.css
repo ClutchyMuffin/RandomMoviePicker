@@ -1,0 +1,115 @@
+/* App.css */
+
+/* Style the container */
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 30px;
+}
+
+/* Title styling */
+#title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: 500;
+    margin-right: 200px;
+}
+
+/* Button styling */
+#button {
+    background-color: #bb86fc;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#button:hover {
+    background-color: #3700b3;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+/* Movie details container */
+.movieDetails {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* Image styling */
+#movieImg {
+    border-radius: 10px;
+    margin-right: 30px;
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Movie info container */
+.movieInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+/* Movie info styling */
+#movieTitle {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#releaseYear, #genre, #director, #rating, #link {
+    font-size: 1.25rem;
+    color: #b0b0b0;
+}
+
+#link {
+    font-size: 1.25rem;
+}
+
+/* Responsive adjustments for component elements */
+@media (max-width: 768px) {
+    .top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #title {
+        font-size: 2rem; 
+        margin-bottom: 15px;
+    }
+
+    #button {
+        font-size: 1rem; 
+        padding: 10px 20px;
+    }
+
+    .movieDetails {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #movieImg {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #movieInfo {
+        font-size: 1.25rem;
+        text-align: left;
+    }
+}

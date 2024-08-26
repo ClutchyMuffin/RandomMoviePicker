@@ -1,1 +1,27 @@
+/* index.css */
 
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Dark mode for the body */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Responsive adjustments for general elements */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+}
