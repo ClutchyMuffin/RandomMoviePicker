@@ -3,6 +3,9 @@ import defaultImage from './assets/blank-image.jpg';
 import './App.css';
 
 const RandomMoviePicker = () => {
+
+    const API_KEY = ''; // Don't have it yet
+
     const [movie, setMovie] = useState({
         title: 'Movie Title',
         imgSrc: defaultImage,
@@ -14,6 +17,15 @@ const RandomMoviePicker = () => {
     });
 
     const handleButtonClick = () => {
+
+        try {
+            
+            // Fetch a random movie
+
+        } catch (error) {
+            console.error("Error fetching movie data: ", error);
+        }
+
         setMovie({
             title: 'Random Movie Title',
             imgSrc: defaultImage,
